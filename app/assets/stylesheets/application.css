@@ -1,5 +1,6 @@
  @import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css";
  @import "https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css";
+ 
  @keyframes wave-movement1 {
    0% {
      margin-bottom: 0px;
