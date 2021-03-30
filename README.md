@@ -28,7 +28,7 @@ The sole purpose of this tool is informational - so you can see, compare and ana
 
 Not necessarily. You can follow people or tools that you like and admire, but unfortunately, the feeling might not be mutual - which is perfectly fine! You are great and beautiful in your own way. Please don't let this affect you!
 
-But you can check if, for example, someone who wanted to "exchange follows" with you have done their part of their work, and maybe even (POLITELY!) ask for them to do so! Or maybe you can just use this data to try to better understand what people who do not follow you. For example, what is the kind of works/programmers that they admire?
+But you can check if, for example, someone who wanted to "exchange follows" with you have done their part of the work, and maybe even (POLITELY!) ask for them to do so! Or maybe you can just use this data to try to better understand what people who do not follow you. For example, what is the kind of works/programmers that they admire?
 
 Do not use this tool for evil purposes, you hot bum!
 
