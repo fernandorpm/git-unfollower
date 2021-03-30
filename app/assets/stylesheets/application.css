@@ -1,0 +1,173 @@
+ @import "https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css";
+ @import "https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css";
+ @keyframes wave-movement1 {
+   0% {
+     margin-bottom: 0px;
+   }
+   50% {
+     margin-left: -20px;
+     margin-bottom: 10px;
+   }
+   100% {
+     margin-bottom: 0px;
+   }
+ }
+
+ @keyframes wave-movement2 {
+   0% {
+     margin-left: -15px;
+     margin-bottom: 0px;
+   }
+   50% {
+     margin-left: 0px;
+     margin-bottom: -15px;
+   }
+   100% {
+     margin-left: -15px;
+     margin-bottom: 0px;
+   }
+ }
+
+ @keyframes wave-movement3 {
+   0% {
+     margin-bottom: 0px;
+   }
+   50% {
+     margin-left: -10px;
+     margin-bottom: 15px;
+   }
+   100% {
+     margin-bottom: 0px;
+   }
+ }
+
+ @keyframes wave-movement4 {
+   0% {
+     margin-left: -30px;
+     margin-bottom: 0px;
+   }
+   50% {
+     margin-left: 0px;
+     margin-bottom: -20px;
+   }
+   100% {
+     margin-left: -30px;
+     margin-bottom: 0px;
+   }
+ }
+
+ .empty-space {
+   height: 120px;
+ }
+
+ .page-content {
+   z-index: 20;
+ }
+
+ .sea {
+   background-color: #1c9fe7;
+ }
+
+ .wave-curve {
+   margin-bottom: -100px;
+ }
+
+ .wave0, .wave1, .wave2, .wave3 {
+   position: fixed;
+   bottom: 0;
+   width: 2000px;
+   left: 0;
+ }
+
+ .wave0 {
+   z-index: 10;
+   bottom: -6%;
+   animation: wave-movement1 4s infinite;
+ }
+
+ .wave1 {
+   z-index: 9;
+   bottom: -20%;
+   animation: wave-movement2 3s infinite;
+ }
+
+ .wave2 {
+   z-index: 8;
+   bottom: 4%;
+   animation: wave-movement3 3s infinite;
+ }
+
+ .wave3 {
+   z-index: 7;
+   bottom: 30%;
+   animation: wave-movement4 4s infinite;
+ }
+
+ .flex-container {
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ .flex-div {
+   width: 100%;
+   height: 150px;
+ }
+
+ .user-div {
+   display: flex;
+   align-items: center;
+ }
+
+ a, a .user-div, a .user-div .title, a .user-div .div-action-call {
+   transition-duration: 0.3s;
+ }
+
+ a:hover .user-div {
+   background-color: #090c10;
+ }
+
+ a:hover .user-div .title {
+   color: white;
+ }
+
+ .action-call {
+   color: grey;
+ }
+
+ .div-action-call {
+   display: none;
+ }
+
+ a:hover .user-div .div-action-call {
+   display: flex;
+   align-items: center;
+   position: absolute;
+   top: 10px;
+   right: 10px;
+ }
+
+ .user-img {
+   width: 110px;
+   height: 110px;
+   border-radius: 5px;
+ }
+
+ .user-img-div {
+   border-radius: 5px;
+   width: 130px;
+   height: 130px;
+   margin-right: 20px;
+   padding: 10px;
+ }
+
+ @media (min-width: 620px) {
+   .flex-div {
+     width: 50%;
+   }
+ }
+
+ @media (min-width: 1012px) {
+   .flex-div {
+     width: 33%;
+   }
+ }

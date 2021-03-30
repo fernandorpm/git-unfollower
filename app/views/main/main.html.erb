@@ -1,0 +1,45 @@
+<section class="hero is-fullheight is-align-items-center is-align-content-center is-justify-content-center sea">
+  <div class="is-full">
+    <div>
+      <svg class="wave0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#184b79" fill-opacity="1" d="M0,64L48,101.3C96,139,192,213,288,234.7C384,256,480,224,576,229.3C672,235,768,277,864,277.3C960,277,1056,235,1152,197.3C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+      </svg>
+
+      <div class="wave1">
+        <svg class="wave-curve" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#0f5590" fill-opacity="1" d="M0,32L40,53.3C80,75,160,117,240,117.3C320,117,400,75,480,101.3C560,128,640,224,720,245.3C800,267,880,213,960,197.3C1040,181,1120,203,1200,197.3C1280,192,1360,160,1400,144L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#0f5590" fill-opacity="1" d="M0,256L0,64L1440,64L1440,320L0,320L0,320Z"></path>
+        </svg>
+      </div>
+
+      <div class="wave2">
+        <svg class="wave-curve" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#0d6b9f" fill-opacity="1" d="M0,128L48,138.7C96,149,192,171,288,165.3C384,160,480,128,576,112C672,96,768,96,864,122.7C960,149,1056,203,1152,197.3C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#0d6b9f" fill-opacity="1" d="M0,256L0,64L1440,64L1440,320L0,320L0,320Z"></path>
+        </svg>
+      </div>
+
+      <div class="wave3">
+        <svg class="wave-curve" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#1083c2" fill-opacity="1" d="M0,32L60,53.3C120,75,240,117,360,160C480,203,600,245,720,234.7C840,224,960,160,1080,112C1200,64,1320,32,1380,16L1440,0L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#1083c2" fill-opacity="1" d="M0,256L0,64L1440,64L1440,320L0,320L0,320Z"></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="page-content">
+    <%= form_tag("/not-following", method: "get") do %>
+    <%= text_field_tag(:user, "", class: "py-3 px-2", size: 25, placeholder: 'Your Github username...') %>
+    <%= submit_tag("Who's not following me?", id: "Search", class: "button is-black is-fullwidth mt-2", action:"not-following") %>
+    
+    <% end %>
+  </div>
+
+</section>
