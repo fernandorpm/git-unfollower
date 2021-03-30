@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   get 'main', to: 'main#main'
   get 'not-following', to: 'not_following#not_following'
 
-  root to: 'main#main'
+  root :to => 'main#main'
 
 end
