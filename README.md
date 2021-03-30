@@ -1,6 +1,3 @@
-# git-unfollower
-Git Unfollower is a simple app to find out who's not following you back on Github! >:(
-
 # Git Unfollower
 
 > Git Unfollower is a simple app to find out who's not following you back on Github! :sunglasses: All of the data used is public data provided by the Github API.
