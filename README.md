@@ -60,6 +60,9 @@ Run this commands in this order:
 To clone the project into your computer:
 - `git clone https://github.com/fernandorpm/git-unfollower.git`
 
+Go to the newly created directory/folder:
+- `cd git-unfollower`
+
 To install the gems from the Gemfile.lock:
 - `bundle install`
 
