@@ -34,7 +34,9 @@
     </div>
   </div>
 
+
   <div class="page-content">
+  <p id="notice" class="white"><%= notice %></p>
     <%= form_tag("/not-following", method: "get") do %>
     <%= text_field_tag(:user, "", class: "py-3 px-2", size: 25, placeholder: 'Your Github username...') %>
     <%= submit_tag("Who's not following me?", id: "Search", class: "button is-black is-fullwidth mt-2", action:"not-following") %>

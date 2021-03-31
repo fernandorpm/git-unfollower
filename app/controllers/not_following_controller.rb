@@ -1,5 +1,6 @@
-class NotFollowingController < ApplicationController
+# frozen_string_literal: true
 
+class NotFollowingController < ApplicationController
   before_action :set_users
 
   include Functions::GetGithub
@@ -13,7 +14,10 @@ class NotFollowingController < ApplicationController
 
   def set_users
     @user = params[:user]
-    @userlist = Functions::GetGithub.get_not_following_list(@user)
+    if !@user.empty?
+      @userlist = Functions::GetGithub.get_not_following_list(@user)
+    else
+      redirect_to root_path, notice: 'Kindly GitHub Username'
+    end
   end
-
 end

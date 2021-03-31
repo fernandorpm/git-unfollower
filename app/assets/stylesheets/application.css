@@ -161,6 +161,11 @@
    padding: 10px;
  }
 
+ .white {
+   color: white;
+   text-align: center;
+ }
+
  @media (min-width: 620px) {
    .flex-div {
      width: 50%;
