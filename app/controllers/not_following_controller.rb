@@ -17,7 +17,7 @@ class NotFollowingController < ApplicationController
     if !@user.empty?
       @userlist = Functions::GetGithub.get_not_following_list(@user)
     else
-      redirect_to root_path, notice: 'Kindly GitHub Username'
+      redirect_to root_path, notice: 'Kindly enter your Github username'
     end
   end
 end
