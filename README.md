@@ -66,6 +66,9 @@ Run these commands in this order:
 3. To install the gems from the Gemfile.lock:
 - `bundle install`
 
+4. Install all node packages
+`npm install`
+
 4. To start the server locally (http://127.0.0.1:3000/)
 - `rails s`
 
