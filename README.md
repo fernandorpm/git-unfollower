@@ -67,7 +67,7 @@ Run these commands in this order:
 - `bundle install`
 
 4. Install all node packages
-`npm install`
+- `npm install`
 
 4. To start the server locally (http://127.0.0.1:3000/)
 - `rails s`
