@@ -42,9 +42,9 @@ Do not use this tool for evil purposes, you hot bum!
 
 ### Prerequisites
 
-- Ruby
-- Bundler
-- Ruby on Rails
+- Ruby (~> 3.0.0)
+- Bundler 
+- Ruby on Rails (~> 6.1.3)
 - Node.js
 - Yarn (v >= 1.2 && < 2)
 
@@ -55,19 +55,24 @@ Do not use this tool for evil purposes, you hot bum!
 
 ### Install
 
-Run this commands in this order:
+Run these commands in this order:
 
-To clone the project into your computer:
+1. To clone the project into your computer:
 - `git clone https://github.com/fernandorpm/git-unfollower.git`
 
-Go to the newly created directory/folder:
+2. Go to the newly created directory/folder:
 - `cd git-unfollower`
 
-To install the gems from the Gemfile.lock:
+3. To install the gems from the Gemfile.lock:
 - `bundle install`
 
-To start the server locally (http://127.0.0.1:3000/)
+4. Install all node packages
+- `npm install`
+
+4. To start the server locally (http://127.0.0.1:3000/)
 - `rails s`
+
+If for some reason you have port 3000 in use, run `rails s -p {PORT_NUMBER}` and access the URL with the desired port.
 
 ### Troubleshooting
 
