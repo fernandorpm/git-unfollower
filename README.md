@@ -1,11 +1,14 @@
+# git-unfollower
+Git Unfollower is a simple app to find out who's not following you back on Github! >:(
+
 # Git Unfollower
 
 > Git Unfollower is a simple app to find out who's not following you back on Github! :sunglasses: All of the data used is public data provided by the Github API.
 
-## Check it out on Heroku
+[Check it out on Heroku](https://livedemo.com)
 
 <p align="center">
-<a href="https://git-unfollower.herokuapp.com/" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098.svg?&style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku"></a>
+<a href="https://www.heroku.com/fernandorpm" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098.svg?&style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku"></a>
 </p>
 
 ![Git Unfollower Demo](./git-unf.gif)
@@ -28,23 +31,23 @@ The sole purpose of this tool is informational - so you can see, compare and ana
 
 Not necessarily. You can follow people or tools that you like and admire, but unfortunately, the feeling might not be mutual - which is perfectly fine! You are great and beautiful in your own way. Please don't let this affect you!
 
-But you can check if, for example, someone who wanted to "exchange follows" with you have done their part of the work, and maybe even (POLITELY!) ask for them to do so! Or maybe you can just use this data to try to better understand what kind of people do not follow you. For example, what is the kind of works/programmers that they admire?
+But you can check if, for example, someone who wanted to "exchange follows" with you have done their part of their work, and maybe even (POLITELY!) ask for them to do so! Or maybe you can just use this data to try to better understand what people who do not follow you. For example, what is the kind of works/programmers that they admire?
 
 Do not use this tool for evil purposes, you hot bum!
 
 
 ## Check out Git Unfollower
 
-[Check it out on Heroku](https://git-unfollower.herokuapp.com/)
+[Check it out on Heroku](https://livedemo.com)
 
 
 ## Getting Started
 
 ### Prerequisites
 
-- Ruby (~> 3.0.0)
-- Bundler 
-- Ruby on Rails (~> 6.1.3)
+- Ruby
+- Bundler
+- Ruby on Rails
 - Node.js
 - Yarn (v >= 1.2 && < 2)
 
@@ -55,24 +58,16 @@ Do not use this tool for evil purposes, you hot bum!
 
 ### Install
 
-Run these commands in this order:
+Run this commands in this order:
 
-1. To clone the project into your computer:
+To clone the project into your computer:
 - `git clone https://github.com/fernandorpm/git-unfollower.git`
 
-2. Go to the newly created directory/folder:
-- `cd git-unfollower`
-
-3. To install the gems from the Gemfile.lock:
+To install the gems from the Gemfile.lock:
 - `bundle install`
 
-4. Install all node packages
-- `npm install`
-
-4. To start the server locally (http://127.0.0.1:3000/)
+To start the server locally (http://127.0.0.1:3000/)
 - `rails s`
-
-If for some reason you have port 3000 in use, run `rails s -p {PORT_NUMBER}` and access the URL with the desired port.
 
 ### Troubleshooting
 
