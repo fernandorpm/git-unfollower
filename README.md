@@ -1,14 +1,11 @@
-# git-unfollower
-Git Unfollower is a simple app to find out who's not following you back on Github! >:(
-
 # Git Unfollower
 
 > Git Unfollower is a simple app to find out who's not following you back on Github! :sunglasses: All of the data used is public data provided by the Github API.
 
-[Check it out on Heroku](https://www.heroku.com/fernandorpm)
+[Check it out on Heroku](https://git-unfollower.herokuapp.com/)
 
 <p align="center">
-<a href="https://www.heroku.com/fernandorpm" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098.svg?&style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku"></a>
+<a href="https://git-unfollower.herokuapp.com/" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098.svg?&style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku"></a>
 </p>
 
 ![Git Unfollower Demo](./git-unf.gif)
@@ -38,7 +35,7 @@ Do not use this tool for evil purposes, you hot bum!
 
 ## Check out Git Unfollower
 
-[Check it out on Heroku](https://livedemo.com)
+[Check it out on Heroku](https://git-unfollower.herokuapp.com/)
 
 
 ## Getting Started
